@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+.destaques {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.img-manha-dois {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center top;
+    background-image: url('../imagens/img_bomdia_retrato.jpg');
+}
+
+.ceu_tarde_um {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center top;
+    background-image: url('../imagens/img_boatarde_retrato.jpg');
+}
+
+.ceu_tarde_dois {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center top;
+    background-image: url('../imagens/img_pordosol_retrato.jpg');
+}
+
+.ceu_noite_um {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center top;
+    background-image: url('../imagens/img_boanoite_retrato.jpg');
+}
+
+.madrugada {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center top;
+    background-image: url('../imagens/madrugada.jpg');
+}
+
+p{
+    padding: 40px;
+    font-size: 40px;
+    color: #fff;
+    text-shadow: #b4b3b3 1px 1px 0;
+    font-family: 'Signika', sans-serif;
+}
+
+
+@media (max-width: 761px) {
+    .destaques {
+        width: 100%;
+        display: flex;
+        flex-direction: column ;
+        
+    }
+
+    p{
+        padding: 10px;
+        font-size: 2em;
+        color: #fff;
+        font-family: 'Signika', sans-serif;
+    }
+}
